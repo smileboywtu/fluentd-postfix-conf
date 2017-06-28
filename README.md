@@ -73,7 +73,7 @@ the file should be read by user `td-agent`.
 }
 ```
 
-# DSN status Lookup
+# DSN Status Lookup
 
 check DSN status:
 
