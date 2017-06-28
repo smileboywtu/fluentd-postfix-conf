@@ -1,0 +1,245 @@
+{
+    "status": {
+        "2": {
+            "cn": "成功",
+            "en": "Success"
+        },
+        "4": {
+            "cn": "持续性瞬态失效",
+            "des": "持续的瞬时故障是其中的消息发送是有效的，但持续存在一些临时条件导致放弃或延迟发送消息的尝试。如果此代码伴随交付失败报告，未来发送可能会成功。",
+            "en": "Persistent Transient Failure"
+        },
+        "5": {
+            "cn": "永久性失败",
+            "en": "Permanent Failure"
+        }
+    },
+    "code_type": {
+        "0": {
+            "en": "Other or Undefined Status",
+            "cn": "其他或未定义状态"
+        },
+        "1": {
+            "en": "Address Status",
+            "cn": "邮件地址状态"
+        },
+        "2": {
+            "en": "Mailbox Status",
+            "cn": "邮件状态"
+        },
+        "3": {
+            "en": "Mail system status",
+            "cn": "邮件系统状态"
+        },
+        "4": {
+            "en": "Network and Routing Status",
+            "cn": "网络和路由状态"
+        },
+        "5": {
+            "en": "Mail Delivery Protocol Status",
+            "cn": "邮件传送协议状态"
+        },
+        "6": {
+            "en": "Message Content or Message Media Status",
+            "cn": "消息内容或消息媒体状态"
+        },
+        "7": {
+            "en": "Security or Policy Status",
+            "cn": "安全或政策状态"
+        }
+    },
+    "code_detail": {
+        "1.0": {
+            "en": "Other address status",
+            "cn": "其他地址状态"
+        },
+        "1.1": {
+            "en": "Bad destination mailbox address",
+            "cn": "目的地邮箱地址不正确"
+        },
+        "1.2": {
+            "en": "Bad destination system address",
+            "cn": "目标系统地址不正确"
+        },
+        "1.3": {
+            "en": "Bad destination mailbox address syntax",
+            "cn": "目标邮箱地址格式不正确"
+        },
+        "1.4": {
+            "en": "Destination mailbox address ambiguous",
+            "cn": "目的地邮箱地址不明确"
+        },
+        "1.5": {
+            "en": "Destination mailbox address valid",
+            "cn": "目的地邮箱地址有效"
+        },
+        "1.6": {
+            "en": "Mailbox has moved",
+            "cn": "邮箱地址不再使用"
+        },
+        "1.7": {
+            "en": "Bad sender's mailbox address syntax",
+            "cn": "发件人的邮箱地址不正确"
+        },
+        "1.8": {
+            "en": "Bad sender's system address",
+            "cn": "错误发件人的系统地址"
+        },
+        "2.0": {
+            "en": "Other or undefined mailbox status",
+            "cn": "其他或未定义的邮箱状态"
+        },
+        "2.1": {
+            "en": "Mailbox disabled, not accepting messages",
+            "cn": "邮箱已禁用，不接受邮件"
+        },
+        "2.2": {
+            "en": "Mailbox full",
+            "cn": "邮箱已满"
+        },
+        "2.3": {
+            "en": "Message length exceeds administrative limit",
+            "cn": "消息长度超过管理限制"
+        },
+        "2.4": {
+            "en": "Mailing list expansion problem",
+            "cn": "邮件列表无法扩展"
+        },
+        "3.0": {
+            "en": "Other or undefined mail system status",
+            "cn": "其他或未定义的邮件系统状态"
+        },
+        "3.1": {
+            "en": "Mail system full",
+            "cn": "邮件系统已满"
+        },
+        "3.2": {
+            "en": "System not accepting network messages",
+            "cn": "系统不接受网络消息"
+        },
+        "3.3": {
+            "en": "System not capable of selected features",
+            "cn": "系统不支持选择的功能"
+        },
+        "3.4": {
+            "en": "Message too big for system",
+            "cn": "邮件消息体太大了"
+        },
+        "3.5": {
+            "en": "System incorrectly configured",
+            "cn": "系统配置不正确"
+        },
+        "4.0": {
+            "en": "Other or undefined network or routing status",
+            "cn": "其他或未定义的网络或路由状态"
+        },
+        "4.1": {
+            "en": "No answer from host",
+            "cn": "主机没有回复"
+        },
+        "4.2": {
+            "en": "Bad connection",
+            "cn": "连接正常，传输错误"
+        },
+        "4.3": {
+            "en": "Directory server failure",
+            "cn": "DNS服务器故障"
+        },
+        "4.4": {
+            "en": "Unable to route",
+            "cn": "路由不可达"
+        },
+        "4.5": {
+            "en": "Mail system congestion",
+            "cn": "邮件系统拥塞"
+        },
+        "4.6": {
+            "en": "Routing loop detected",
+            "cn": "路由回环"
+        },
+        "4.7": {
+            "en": "Delivery time expired",
+            "cn": "邮件投递已过期"
+        },
+        "5.0": {
+            "en": "Other or undefined protocol status",
+            "cn": "其他或未定义的协议状态"
+        },
+        "5.1": {
+            "en": "Invalid command",
+            "cn": "无效的命令"
+        },
+        "5.2": {
+            "en": "Syntax error",
+            "cn": "语法错误"
+        },
+        "5.3": {
+            "en": "Too many recipients",
+            "cn": "太多收件人了"
+        },
+        "5.4": {
+            "en": "Invalid command arguments",
+            "cn": "无效的命令参数"
+        },
+        "5.5": {
+            "en": "Wrong protocol version",
+            "cn": "协议版本错误"
+        },
+        "6.0": {
+            "en": "Other or undefined media error",
+            "cn": "其他或未定义的媒体错误"
+        },
+        "6.1": {
+            "en": "Media not supported",
+            "cn": "消息中的媒体类型不支持"
+        },
+        "6.2": {
+            "en": "Conversion required and prohibited",
+            "cn": "消息内容需要被转换后才能传输"
+        },
+        "6.3": {
+            "en": "Conversion required but not supported",
+            "cn": "消息内容需要转换，但是该格式不支持转换"
+        },
+        "6.4": {
+            "en": "Conversion with loss performed",
+            "cn": "消息内容转换过程发生数据损失"
+        },
+        "6.5": {
+            "en": "Conversion Failed",
+            "cn": "消息内容转换失败"
+        },
+        "7.0": {
+            "en": "Other or undefined security status",
+            "cn": "其他或未定义的安全状态"
+        },
+        "7.1": {
+            "en": "Delivery not authorized, message refused",
+            "cn": "邮件投递未经授权，邮件拒绝"
+        },
+        "7.2": {
+            "en": "Mailing list expansion prohibited",
+            "cn": "发送者未经认证向邮件列表中发送邮件"
+        },
+        "7.3": {
+            "en": "Security conversion required but not possible",
+            "cn": "邮件内容投递过程中从一个安全消息协议转换到另一个安全消息协议需，但这种转换是不可能的"
+        },
+        "7.4": {
+            "en": "Security features not supported",
+            "cn": "安全特性不支持"
+        },
+        "7.5": {
+            "en": "Cryptographic failure",
+            "cn": "加密失败"
+        },
+        "7.6": {
+            "en": "Cryptographic algorithm not supported",
+            "cn": "不支持加密算法"
+        },
+        "7.7": {
+            "en": "Message integrity failure",
+            "cn": "消息不完整"
+        }
+    }
+}
