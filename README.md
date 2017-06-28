@@ -53,7 +53,7 @@ the file should be read by user `td-agent`.
     "size": "1980",
     "nrcpt": "1",
     "message": "queue active",
-    "tag": "postfix.result",
+    "logtype": "postfix.result",
     "timestamp": "1498626866"
 } 
 {
@@ -68,7 +68,7 @@ the file should be read by user `td-agent`.
     "dns": "2.0.0",
     "status": "sent",
     "message": "250 Ok: queued as ",
-    "tag": "postfix.result",
+    "logtype": "postfix.result",
     "timestamp": "1498626868"
 }
 ```
