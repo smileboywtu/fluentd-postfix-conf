@@ -30,6 +30,11 @@ curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh 
 td-agent-gem  install fluent-plugin-parser
 ```
 
+# keep care
+
+if you want to run customer script or app, you need to care about the file privilege, usually
+the file should be read by user `td-agent`.
+
 # example
 
 ```json
