@@ -108,19 +108,16 @@ detail = 1*3digit
 |X.1.6 |Mailbox has moved                              |
 |X.1.7 |Bad sender's mailbox address syntax            |
 |X.1.8 |Bad sender's system address                    |
-|      |                                               |
 |X.2.0 |Other or undefined mailbox status              |
 |X.2.1 |Mailbox disabled, not accepting messages       |
 |X.2.2 |Mailbox full                                   |
 |X.2.3 |Message length exceeds administrative limit    |
 |X.2.4 |Mailing list expansion problem                 |
-|      |                                               |
 |X.3.0 |Other or undefined mail system status          |
 |X.3.1 |Mail system full                               |
 |X.3.2 |System not accepting network messages          |
 |X.3.3 |System not capable of selected features        |
 |X.3.4 |Message too big for system                     |
-|      |                                               |
 |X.4.0 |Other or undefined network or routing status   |
 |X.4.1 |No answer from host                            |
 |X.4.2 |Bad connection                                 |
@@ -129,21 +126,18 @@ detail = 1*3digit
 |X.4.5 |Network congestion                             |
 |X.4.6 |Routing loop detected                          |
 |X.4.7 |Delivery time expired                          |
-|      |                                               |
 |X.5.0 |Other or undefined protocol status             |
 |X.5.1 |Invalid command                                |
 |X.5.2 |Syntax error                                   |
 |X.5.3 |Too many recipients                            |
 |X.5.4 |Invalid command arguments                      |
 |X.5.5 |Wrong protocol version                         |
-|      |                                               |
 |X.6.0 |Other or undefined media error                 |
 |X.6.1 |Media not supported                            |
 |X.6.2 |Conversion required and prohibited             |
 |X.6.3 |Conversion required but not supported          |
 |X.6.4 |Conversion with loss performed                 |
 |X.6.5 |Conversion failed                              |
-|      |                                               |
 |X.7.0 |Other or undefined security status             |
 |X.7.1 |Delivery not authorized, message refused       |
 |X.7.2 |Mailing list expansion prohibited              |
