@@ -32,6 +32,12 @@ td-agent-gem  install fluent-plugin-parser
 
 # keep care
 
+test postfix version is `2.9.6-1~12.04.3`
+
+``` shell
+apt-get install postfix=2.9.6-1~12.04.3
+```
+
 if you want to run customer script or app, you need to care about the file privilege, usually
 the file should be read by user `td-agent`.
 
@@ -66,3 +72,10 @@ the file should be read by user `td-agent`.
     "timestamp": "1498626868"
 }
 ```
+
+# about postfix log
+
+more docs about log filed information:
+
+- [uderstand delays](https://serverfault.com/questions/24121/understanding-a-postfix-log-file-entry)
+- [DSN status](https://tools.ietf.org/html/rfc3463)
