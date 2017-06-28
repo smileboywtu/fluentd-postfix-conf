@@ -79,14 +79,18 @@ check DSN status:
 
 
 The syntax of the new status codes is defined as:
+
+```shell
 status-code = class "." subject "." detail 
 class = "2"/"4"/"5" 
 subject = 1*3digit 
 detail = 1*3digit
+```
 
-##Collected Status Codes
 
-###First Digit
+## Collected Status Codes
+
+### First Digit
 
 | status | description |
 |---     |---          |
@@ -95,7 +99,7 @@ detail = 1*3digit
 |5.X.X |Permanent Failure|
 
 
-###Second and Third Digits
+### Second and Third Digits
 
 | status | description |
 |---     |---          |
